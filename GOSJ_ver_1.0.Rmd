@@ -40,6 +40,7 @@ In these studies, the counts of features are obtained using the annotated gene m
 <!-- $$ -->
 
 <!-- ![Bias from gene structure](/home/aiminyan/GOSJ/Figure/BiasFromGeneStructure.png) -->
+![Bias from gene structure](/home/aiminyan/GOSJ/Figure/BiasFromGeneStructure.png)
 
 Based on the usage of exons and splicing junctions, differential usage between two conditions are identified. The differentially expressed genes are derived from the differential usage of exons and splicing junctions within genes, subsequent gene sets or/and pathway analysis are performed using this derived differentlly expressed genes. It is obserserved that identifying differentially expressed genes using this approach is biased by the number of exons and splicing junctions.
 
