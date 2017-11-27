@@ -1,0 +1,2 @@
+#awk -F "\t" '{OFS="\t"; $1 = "chr"$1; print}' /media/H_driver/Aimin_project/GTF_Files/Homo_sapiens.GRCh38.84.gtf | awk -F"\t" '{OFS="\t"; if($1=="chrMT") $1="chrM"; print}' > /media/H_driver/Aimin_project/GTF_Files/Homo_sapiens.GRCh38.84.processed.gtf
+sort -k1,1 -k4,4n /media/H_driver/Aimin_project/GTF_Files/Homo_sapiens.GRCh38.84.processed.gtf > /media/H_driver/Aimin_project/GTF_Files/Homo_sapiens.GRCh38.84.processed.sorted.2.gtf
